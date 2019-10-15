@@ -1,3 +1,63 @@
 .intro {
-  background-image: url(../img/purplesky.jpg);
+  background-image: url(../img/brickWall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#about, #contact, #projects {
+  padding-top: 7%;
+
+}
+
+#contact, #projects {
+  padding-bottom: 10%;
+}
+
+#contact, #about, #map, #projects, footer {
+  background-color: black;
+}
+
+.logoContainer {
+  display: inline-block;
+}
+
+#adMe {
+  color: white;
+  font-size: 6rem;
+  font-family: Modak, cursive;
+  cursor: pointer;
+}
+
+#milkIt {
+  font-size: 6rem;
+  font-family: Lobster, cursive;
+  cursor: pointer;
+  position: relative;
+  right: 3%;
+  display: inline-block;
+  color: white;
+}
+
+#queuepon {
+  font-size: 6rem;
+  font-family: Bubblegum Sans;
+  font: bold;
+  cursor: pointer;
+  color: white;
+}
+
+#purple {
+  color: rebeccapurple;
+}
+
+#udder {
+  width: 4.5rem;
+  display: inline-block;
+  position: relative;
+  transform: rotate(270deg);
+  margin-bottom: 15%;
+}
+
+img {
+  width: 5rem;
+  background-size: cover;
 }
