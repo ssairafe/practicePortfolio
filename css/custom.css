@@ -18,6 +18,8 @@
 
 .logoContainer {
   display: inline-block;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 #adMe {
@@ -50,11 +52,11 @@
 }
 
 #udder {
-  width: 4.5rem;
+  width: 5rem;
   display: inline-block;
   position: relative;
   transform: rotate(270deg);
-  margin-bottom: 15%;
+  left: 10%;
 }
 
 img {

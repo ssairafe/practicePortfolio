@@ -3,7 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url(https://fonts.googleapis.com/css?family=Vibur);
 body {
   width: 100%;
   height: 100%;
@@ -14,14 +14,10 @@ body {
 html,body{
   height:100%
 }
-body {
-  background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
-  background-size:cover;
-  margin:0
-}
+
 .logo {
   text-align: center;
-  width: 65%;
+  width: 70%;
   height: 250px;
   margin: auto;
   top: 0;
@@ -31,24 +27,19 @@ body {
    user-select: none;
 }
 
-.bottomLogo {
-  position: absolute;
-  top: 20%;
-}
-
 .topLogo {
-  margin-bottom: 10%;
+  padding-top: 15%;
 }
 
-.logo b{
-  font: 400 19vh "Vibur";
+ b.logo{
+  font: 400 15rem "Lora";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
 }
-.logo b span{
+ b span{
   animation: blink linear infinite 2s;
 }
-.logo b span:nth-of-type(2){
+ b span:nth-of-type(2){
   animation: blink linear infinite 3s;
 }
 @keyframes blink {
@@ -138,6 +129,11 @@ p {
     font-size: 20px;
     line-height: 1.6;
   }
+    .logo {
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
 }
 a {
   color: #42DCA3;
@@ -203,6 +199,13 @@ a:focus {
   color: white;
 }
 @media (min-width: 768px) {
+
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -236,22 +239,32 @@ a:focus {
   display: table-cell;
   vertical-align: middle;
 }
-.intro .intro-body .brand-heading {
+.intro .intro-body {
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
 @media (min-width: 768px) {
+
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .intro {
     height: 100%;
     padding: 0;
   }
-  .intro .intro-body .brand-heading {
+  .intro .intro-body  {
     font-size: 100px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
+  }
+  .brand-heading {
+    font-size: 15rem;
   }
 }
 
@@ -344,6 +357,12 @@ a:focus {
 }
 @media (min-width: 767px) {
 
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .download-section {
     padding: 100px 0;
   }
@@ -377,11 +396,24 @@ ul.banner-social-buttons {
   margin-top: 0;
 }
 @media (max-width: 1199px) {
+ .logo b{
+  font: 400 13rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
+
+ .logo b{
+  font: 400 9rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
@@ -413,6 +445,15 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-/* body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-} */
+
+@media (max-width: 667px) {
+  b.logo {
+  font: 400 10rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
+  .logoContainer {
+    margin-bottom: 10%;
+  }
+}
