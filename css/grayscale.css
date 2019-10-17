@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url(https://fonts.googleapis.com/css?family=Vibur);
 body {
   width: 100%;
   height: 100%;
@@ -10,6 +11,97 @@ body {
   color: white;
   background-color: black;
 }
+html,body{
+  height:100%
+}
+
+.logo {
+  text-align: center;
+  width: 70%;
+  height: 250px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   user-select: none;
+}
+
+.topLogo {
+  padding-top: 15%;
+}
+
+ b.logo{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+}
+ b span{
+  animation: blink linear infinite 2s;
+}
+ b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+#btn-twtr{
+  clear:both;
+  color:#fff;
+  border:2px solid;
+  border-radius:3px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  font-family:sans-serif;
+  font-size:14px;
+  width:13em;
+  padding:5px 10px;
+  font-weight:600;
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  background:rgba(0,0,0,0.2);
+  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+  opacity:0.4
+}#btn-twtr:hover{color:#fff;opacity:1}
+
+
 html {
   width: 100%;
   height: 100%;
@@ -37,6 +129,11 @@ p {
     font-size: 20px;
     line-height: 1.6;
   }
+    .logo {
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
 }
 a {
   color: #42DCA3;
@@ -102,6 +199,13 @@ a:focus {
   color: white;
 }
 @media (min-width: 768px) {
+
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -124,7 +228,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  /* background: url(../img/yellow\ tree.jpg) no-repeat bottom center scroll; */
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -135,24 +239,39 @@ a:focus {
   display: table-cell;
   vertical-align: middle;
 }
-.intro .intro-body .brand-heading {
+.intro .intro-body {
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
 @media (min-width: 768px) {
+
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .intro {
     height: 100%;
     padding: 0;
   }
-  .intro .intro-body .brand-heading {
+  .intro .intro-body  {
     font-size: 100px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
+  .brand-heading {
+    font-size: 15rem;
+  }
 }
+
+.intro-text {
+  margin: auto;
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -224,7 +343,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,9 +356,13 @@ a:focus {
   margin-top: 100px;
 }
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
+
+   .logo b{
+  font: 400 15rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   .download-section {
     padding: 100px 0;
   }
@@ -273,11 +396,24 @@ ul.banner-social-buttons {
   margin-top: 0;
 }
 @media (max-width: 1199px) {
+ .logo b{
+  font: 400 13rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
+
+ .logo b{
+  font: 400 9rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
@@ -309,6 +445,15 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+
+@media (max-width: 667px) {
+  b.logo {
+  font: 400 10rem "Lora";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em gray, 0 0 0.5em black, 0 0 0.1em silver, 0 10px 3px #000;
+    }
+
+  .logoContainer {
+    margin-bottom: 10%;
+  }
 }
