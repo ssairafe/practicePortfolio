@@ -67,3 +67,7 @@ img {
 .langContainer {
   height: 130px;
 }
+
+.appLink:hover {
+  text-shadow: 2px 2px 5px white, 0 0 15px white, 0 0 25px white;
+}
