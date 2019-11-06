@@ -63,3 +63,7 @@ img {
   width: 5rem;
   background-size: cover;
 }
+
+.langContainer {
+  height: 130px;
+}
