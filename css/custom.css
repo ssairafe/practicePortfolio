@@ -22,6 +22,12 @@
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+#authr {
+   font-family: 'Dancing Script', cursive;
+   font-size: 6rem;
+   cursor: pointer;
+   color: rgb(41, 109, 41);
+}
 
 #adMe {
   color: white;
