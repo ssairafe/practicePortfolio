@@ -1,5 +1,5 @@
 .intro {
-  background-image: url(../img/brickWall.jpg);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -33,6 +33,13 @@
   color: white;
   font-size: 6rem;
   font-family: Modak, cursive;
+  cursor: pointer;
+}
+
+#elevated {
+  color: white;
+  font-size: 6rem;
+  font-family: Abril Fatface, serif;
   cursor: pointer;
 }
 
